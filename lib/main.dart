@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:instoo/firebase_options.dart';
 import 'package:instoo/providers/user_provider.dart';
 import 'package:instoo/responsive/mobile_screen_layout.dart';
 import 'package:instoo/responsive/responsive_layout_screen.dart';
@@ -11,7 +12,7 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   runApp(const MyApp());
 }
