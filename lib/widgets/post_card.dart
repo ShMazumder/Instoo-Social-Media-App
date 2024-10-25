@@ -254,7 +254,7 @@ class _PostCardState extends State<PostCard> {
               children: [
                 Text(
                   '${widget.snap['likes'].length} likes',
-                  style: Theme.of(context).textTheme.bodyText2!.copyWith(
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                         fontWeight: FontWeight.w500,
                       ),
                 ),
