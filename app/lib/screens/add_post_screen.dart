@@ -55,13 +55,13 @@ class _AddPostScreenState extends State<AddPostScreen> {
     return showDialog(
       context: context,
       builder: (context) => SimpleDialog(
-        title: Text(
+        title: const Text(
           "Create a Post",
         ),
         children: [
           SimpleDialogOption(
-            padding: EdgeInsets.all(20),
-            child: Text("Take a photo"),
+            padding: const EdgeInsets.all(20),
+            child: const Text("Take a photo"),
             onPressed: () async {
               Navigator.of(context).pop();
               Uint8List file = await pickImage(ImageSource.camera);
@@ -71,8 +71,8 @@ class _AddPostScreenState extends State<AddPostScreen> {
             },
           ),
           SimpleDialogOption(
-            padding: EdgeInsets.all(20),
-            child: Text("Choose from gallery"),
+            padding: const EdgeInsets.all(20),
+            child: const Text("Choose from gallery"),
             onPressed: () async {
               Navigator.of(context).pop();
               Uint8List file = await pickImage(ImageSource.gallery);
@@ -82,8 +82,8 @@ class _AddPostScreenState extends State<AddPostScreen> {
             },
           ),
           SimpleDialogOption(
-            padding: EdgeInsets.all(20),
-            child: Text("Cancel"),
+            padding: const EdgeInsets.all(20),
+            child: const Text("Cancel"),
             onPressed: () {
               Navigator.of(context).pop();
             },
@@ -101,6 +101,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
 
   @override
   void dispose() {
+    super.dispose();
     // TODO: implement dispose
     descriptionController.dispose();
   }
@@ -111,7 +112,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
     return _file == null
         ? Center(
             child: IconButton(
-              icon: Icon(Icons.upload),
+              icon: const Icon(Icons.upload),
               onPressed: () => _selectImage(context),
             ),
           )
@@ -119,12 +120,12 @@ class _AddPostScreenState extends State<AddPostScreen> {
             appBar: AppBar(
               backgroundColor: mobileBackgroundColor,
               leading: IconButton(
-                icon: Icon(
+                icon: const Icon(
                   Icons.arrow_back,
                 ),
                 onPressed: clearImage,
               ),
-              title: Text("Post to"),
+              title: const Text("Post to"),
               centerTitle: false,
               actions: [
                 TextButton(
@@ -133,7 +134,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
                     user.username,
                     user.photoUrl,
                   ),
-                  child: Text(
+                  child: const Text(
                     "Post",
                     style: TextStyle(
                         color: Colors.lightBlueAccent,
@@ -163,7 +164,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
                       width: MediaQuery.of(context).size.width * 0.45,
                       child: TextField(
                         controller: descriptionController,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           hintText: "Write your caption...",
                           border: InputBorder.none,
                         ),
@@ -186,7 +187,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
                         ),
                       ),
                     ),
-                    Divider(
+                    const Divider(
                       color: Colors.white,
                     ),
                   ],

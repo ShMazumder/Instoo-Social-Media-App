@@ -35,7 +35,7 @@ class _CommentsScreenState extends State<CommentsScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: mobileBackgroundColor,
-        title: Text(
+        title: const Text(
           "Comments",
         ),
         centerTitle: false,
@@ -53,7 +53,7 @@ class _CommentsScreenState extends State<CommentsScreen> {
         builder: (context,
             AsyncSnapshot<QuerySnapshot<Map<String, dynamic>>> snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
           }
@@ -72,7 +72,7 @@ class _CommentsScreenState extends State<CommentsScreen> {
           margin: EdgeInsets.only(
             bottom: MediaQuery.of(context).viewInsets.bottom,
           ),
-          padding: EdgeInsets.only(
+          padding: const EdgeInsets.only(
             left: 16,
             right: 8,
           ),
@@ -105,11 +105,11 @@ class _CommentsScreenState extends State<CommentsScreen> {
                   _commentController.clear();
                 },
                 child: Container(
-                  padding: EdgeInsets.symmetric(
+                  padding: const EdgeInsets.symmetric(
                     vertical: 8,
                     horizontal: 8,
                   ),
-                  child: Text(
+                  child: const Text(
                     'Post',
                     style: TextStyle(
                       color: Colors.white,

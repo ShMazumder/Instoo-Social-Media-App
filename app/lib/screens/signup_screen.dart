@@ -23,7 +23,7 @@ class _SignupScreenState extends State<SignupScreen> {
   final TextEditingController _bioController = TextEditingController();
   final TextEditingController _usernameController = TextEditingController();
   Uint8List? _profileImage;
-  AssetImage defaultProfile = AssetImage('assets/defaultUserimage.png');
+  Image defaultProfile = Image.asset('assets/defaultUserimage.png');
   bool _isLoading = false;
 
   @override
@@ -76,7 +76,7 @@ class _SignupScreenState extends State<SignupScreen> {
     return Scaffold(
         body: SafeArea(
       child: Container(
-        padding: EdgeInsets.symmetric(
+        padding: const EdgeInsets.symmetric(
           horizontal: 32,
         ),
         width: double.infinity,
@@ -95,7 +95,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 color: primaryColor,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 32,
             ),
             // Circle Avatar to accept and show our profile photo
@@ -110,20 +110,20 @@ class _SignupScreenState extends State<SignupScreen> {
                     : CircleAvatar(
                         backgroundColor: textPrimaryColor,
                         radius: 64,
-                        backgroundImage: defaultProfile,
+                        backgroundImage: defaultProfile.image,
                       ),
                 Positioned(
                     bottom: -10,
                     left: 80,
                     child: IconButton(
                       onPressed: selectImage,
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.add_a_photo,
                       ),
                     ))
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 24,
             ),
             TextFieldInput(
@@ -131,7 +131,7 @@ class _SignupScreenState extends State<SignupScreen> {
               hintText: "Enter your username",
               textInputType: TextInputType.text,
             ),
-            SizedBox(
+            const SizedBox(
               height: 24,
             ),
             TextFieldInput(
@@ -139,7 +139,7 @@ class _SignupScreenState extends State<SignupScreen> {
               hintText: "Enter your email",
               textInputType: TextInputType.emailAddress,
             ),
-            SizedBox(
+            const SizedBox(
               height: 24,
             ),
             TextFieldInput(
@@ -148,7 +148,7 @@ class _SignupScreenState extends State<SignupScreen> {
               textInputType: TextInputType.text,
               isPass: true,
             ),
-            SizedBox(
+            const SizedBox(
               height: 24,
             ),
             TextFieldInput(
@@ -156,19 +156,19 @@ class _SignupScreenState extends State<SignupScreen> {
               hintText: "Enter your bio ",
               textInputType: TextInputType.text,
             ),
-            SizedBox(
+            const SizedBox(
               height: 24,
             ),
             InkWell(
               onTap: signUpUser,
               child: Container(
                 child: _isLoading
-                    ? Center(
+                    ? const Center(
                         child: CircularProgressIndicator(
                           color: textPrimaryColor,
                         ),
                       )
-                    : Text(
+                    : const Text(
                         'Sign up',
                         style: TextStyle(
                             color: textPrimaryColor,
@@ -176,7 +176,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       ),
                 width: double.infinity,
                 alignment: Alignment.center,
-                padding: EdgeInsets.symmetric(
+                padding: const EdgeInsets.symmetric(
                   vertical: 12,
                 ),
                 decoration: ShapeDecoration(
@@ -187,7 +187,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 12,
             ),
             Flexible(
@@ -198,8 +198,8 @@ class _SignupScreenState extends State<SignupScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: Text('Already have an account?'),
-                  padding: EdgeInsets.symmetric(
+                  child: const Text('Already have an account?'),
+                  padding: const EdgeInsets.symmetric(
                     vertical: 8,
                   ),
                 ),
@@ -208,13 +208,13 @@ class _SignupScreenState extends State<SignupScreen> {
                     Navigator.pop(context);
                   },
                   child: Container(
-                    child: Text(
+                    child: const Text(
                       'Log in',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    padding: EdgeInsets.symmetric(
+                    padding: const EdgeInsets.symmetric(
                       vertical: 8,
                     ),
                   ),

@@ -1,7 +1,6 @@
-import 'dart:typed_data';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:instoo/models/post.dart';
 import 'package:instoo/resources/storage_methods.dart';
 import 'package:uuid/uuid.dart';
@@ -20,7 +19,7 @@ class FirestoreMethods {
         file,
         true,
       );
-      String postId = Uuid().v1();
+      String postId = const Uuid().v1();
 
       Post post = Post(
           description: description,
@@ -52,7 +51,9 @@ class FirestoreMethods {
         });
       }
     } catch (e) {
-      print(e.toString());
+      if (kDebugMode) {
+        print(e.toString());
+      }
     }
   }
 
@@ -65,7 +66,7 @@ class FirestoreMethods {
   ) async {
     try {
       if (comment.isNotEmpty) {
-        String commentId = Uuid().v1();
+        String commentId = const Uuid().v1();
         await _firestore
             .collection('posts')
             .doc(postId)
@@ -80,10 +81,14 @@ class FirestoreMethods {
           'datePublished': DateTime.now(),
         });
       } else {
-        print('Text is empty');
+        if (kDebugMode) {
+          print('Text is empty');
+        }
       }
     } catch (e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
     }
   }
 
@@ -93,7 +98,9 @@ class FirestoreMethods {
     try {
       await _firestore.collection('posts').doc(postId).delete();
     } catch (e) {
-      print(e.toString());
+      if (kDebugMode) {
+        print(e.toString());
+      }
     }
   }
 

@@ -2,7 +2,6 @@ import 'dart:typed_data';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
 import 'package:instoo/models/user.dart' as model;
 import 'package:instoo/resources/storage_methods.dart';
 
@@ -33,7 +32,7 @@ class AuthMethods {
           password.isNotEmpty ||
           username.isNotEmpty ||
           bio.isNotEmpty ||
-          file != null) {
+          file.isNotEmpty) {
         // Register user using firebase Auth
         UserCredential cred = await _auth.createUserWithEmailAndPassword(
             email: email, password: password);
