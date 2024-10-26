@@ -1,0 +1,286 @@
+{
+  "project_info": {
+    "project_number": "444406023971",
+    "project_id": "shmazumder-23",
+    "storage_bucket": "shmazumder-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:53c8343c4d46ca7b872e96",
+        "android_client_info": {
+          "package_name": "com.example.instoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:b32650a45ebcdcef872e96",
+        "android_client_info": {
+          "package_name": "com.example.thesis_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-ecpsqervh0tbie97k9q5tpjtmq29a3fc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thesis_project",
+            "certificate_hash": "4259fd1f916e11650ad5cad2b986262e31b2aaa3"
+          }
+        },
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:377dd13e81470f11872e96",
+        "android_client_info": {
+          "package_name": "sh.mazumder.elearner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-6k311gfliv1ku4dger4vrnn0phdncl19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sh.mazumder.elearner",
+            "certificate_hash": "e7aca91ab39811eb4afc745fc77823b2e269fcf3"
+          }
+        },
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:9dfe0d03c06f040a872e96",
+        "android_client_info": {
+          "package_name": "sh.mazumder.foodshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:bcab54d2b8f3cd0c872e96",
+        "android_client_info": {
+          "package_name": "sh.mazumder.mobilepolling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:00ab88b16d3e5051872e96",
+        "android_client_info": {
+          "package_name": "sh.mazumder.news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-g9p4ajjbcqjshsk10olkqdkm48ci5ahm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sh.mazumder.news_app",
+            "certificate_hash": "e7aca91ab39811eb4afc745fc77823b2e269fcf3"
+          }
+        },
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444406023971:android:db9b0e8a96d230bb872e96",
+        "android_client_info": {
+          "package_name": "sh.mazumder.productive_tools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444406023971-jktctbobrq7rvip5e66um87oqfh4dnfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo215TRl_Nkdp1t0m48C6rda_c9vRD_E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444406023971-75le4922avmkiq2a3m055ef40916f6ug.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "444406023971-2roqcclffqruvmma8tbu8rq0jpgtc677.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sh.mazumder.productiveTools"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
